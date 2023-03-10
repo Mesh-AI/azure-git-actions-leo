@@ -2,9 +2,11 @@
 
 * Do not use this repo! Test only!
 
-Resources Group with .tfvars - rg-terraform-github-actions-leo
+## Supporting Resources:
 
-Workflows:
+ - rg-terraform-github-actions-leo (.tfvars bearer)
+
+### Workflows:
 
   * **Terraform Unit Tests**: This workflow runs on every commit and is composed of a set of unit tests on the infrastructure code. The tests aim to ensure the code is properly linted and follows terraform best practices. Additionally, certifies that the code is syntactically correct and internally consistent. Lastly, runs checkov (opensource static code analysis tool for IaC for security and compliance issues).
 
