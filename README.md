@@ -8,7 +8,7 @@
 
 ### Workflows:
 
-  * **Terraform Unit Tests**: This workflow runs on every commit and is composed of a set of unit tests on the infrastructure code. The tests aim to ensure the code is properly linted and follows terraform best practices. Additionally, certifies that the code is syntactically correct and internally consistent. Lastly, runs checkov (opensource static code analysis tool for IaC for security and compliance issues).
+  * **Terraform Unit Tests**: This workflow runs on every commit and is composed of a set of unit tests on the infrastructure code. The tests aim to ensure the code is properly linted and follows terraform best practices. Additionally, certifies that the code is syntactically correct and internally consistent. Lastly, runs checkov (opensource static code analysis tool for IaC) for security and compliance issues.
 
   * **Terraform Plan / Apply**: This workflow runs on every pull request and on each commit to the main branch. The plan stage of the workflow is used to understand the impact of the IaC changes on the Azure environment by running terraform plan command.
 
